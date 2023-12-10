@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.Contiener{
+    margin-top: 100px;
+    border: 2px;
+    border-style: double;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 6px;
+}
+
+.monitor{
+    border-radius: 30px;
+    width: 1fr;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+button{
+    border-radius: 50px;
+    margin: 3px;
+    height: 45px;
+    border-color: rgba(148, 136, 118, 0.866);
+}
+h2{
+    text-align: center;
+}
